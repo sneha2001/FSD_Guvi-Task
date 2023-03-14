@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Shantell+Sans:ital,wght@0,400;1,700&display=swap');
+
+*{
+    /* background-color: antiquewhite; */
+}
+
+.header-font{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: larger;
+    border: 1px solid black;
+    /* letter-spacing will give the space in word for each letter */
+    letter-spacing: 0.1cm;
+    height: 30px;
+    padding: 15px;
+    /* margin: 10px; */
+    background-color: rgb(72, 77, 97);
+    color: aliceblue;
+    /* display: inline-block; */
+}
+
+#git-image{
+    /* background-color: aqua; */
+    /* width: 60px;
+    height: 100px;
+    */
+    /* height: 100px; */
+}
+
+.image-pos{
+    position: absolute; 
+    top: 0;
+    padding: 8px;
+    margin: 0;
+    /* border: 1px solid red; */  
+}
+
+.main-content{
+    /* display: grid; */
+    /* border: 1px solid black; */
+    background-color: rgb(181, 184, 182);
+    /* grid-template-rows: 100%; */
+    /* height: 400px; */
+    padding: 80px;
+    /* margin: 100px; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.search-bar{
+    width: 60%;
+    max-width: 1000px;
+    background: rgba(72, 77, 97, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    height: 40px;
+    /* backdrop filter it will take background image as blur and make it as saturated*/
+    backdrop-filter: blur(4px) saturate(180%);
+    margin-left: 200px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 20px 20px;
+}
+
+.search-bar button img{
+    width:20px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 40%;
+    width: 40px;
+    height: 40px;
+    background: #484D61;
+    cursor: pointer;
+}
+.row{
+    /* border: 2px solid rebeccapurple; */
+    display: grid;
+    grid-template-columns: 300px 625px;
+}
+
+.column {
+    /* flex: 50%; */
+  padding: 10px;
+  height: 700px;
+  background-color: rgb(181, 184, 182);
+    /* border: 1px solid rgb(125, 123, 128); */
+    /* height: 300px; Should be removed. Only for demonstration */
+}
+
+.col-1-content{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 7px;
+    height: 600px;
+    background: rgba(72, 77, 97, 0.2);
+    border-radius: 30px;
+}
+
+.col-2-con{
+    border: 1px solid black;
+    display: inline-flex;
+    height: 120px;
+    margin: 20px;
+    padding: 10px;
+    width: 125px;
+    background: rgba(72, 77, 97, 0.2);
+    border-radius: 30px;
+}
+
+.col-2-con-row1{
+    border: 1px solid saddlebrown;
+    margin: 40px;
+    height: 300px;
+    padding: 10px;
+    width: 510px;
+    background: rgba(72, 77, 97, 0.2);
+    border-radius: 30px;
+}
