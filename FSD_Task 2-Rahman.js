@@ -5,11 +5,10 @@ log("This is 3rd Task");
 log("...............................................");
 
 const studentDetails = {
-    name : "Kalilur Rahman",
-    place : "Tiruvallur",
-    age : 25,
-    isProfessional : "ServiceNow Developer",
-    degree : "B.Tech.CSE"
+    name : "Sneha harigharun",
+    place : "Chennai",
+    age : 22,
+    degree : "BCA"
 }
 
 //General for loop
