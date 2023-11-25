@@ -60,15 +60,14 @@ studentValues.forEach((values, index, actArray) => console.log(values, index, ac
 // Create your own resume data in JSON format?
 
 const myResume = {
-    name : "Kalilur Rahman A R",
-    Degree : "B.Tect.Computer Science and Engineering",
-    experience : "2 years of ServiceNow Developer",
-    skills : "MS Office, VS Code, Pycharm",
+    name : "Sneha harigharun",
+    Degree : "BCA",
+    experience : "1 year",
+    skills : "MS Office, VS Code",
     languages : "Javascript, Python, HTML, Css",
-    address : "No:18, Kumaran street, LK Nagar, Periyakuppam, Tiruvallur",
-    pincode : 602001,
-    isMarried : false,
-    cgpa : 83.96
+    address : "No:755, Omega church street, Nadhukuthagai, Chennai",
+    pincode : 602024,
+    isMarried : True,
 }
 
 log("--- Getting keys from myResume ---");
